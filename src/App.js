@@ -4,11 +4,12 @@ import "./index.css";
 
 import SignUp from "./pages/SignUp";
 import Dashboard from "./pages/Dashboard";
+import Topbar from "./components/Topbar";
 
 function App() {
   return (
-    <div className="bg-black text-white">
-      I laugh in spanish
+    <div className="bg-[#D2D2D2]">
+      <Topbar/>
       <Routes>
         <Route>
           <Route index element={<Dashboard />} />
