@@ -1,5 +1,4 @@
 import mainlogo from '../images/mainlogo.png'
-import eye from '../images/eye.png'
 import user from '../images/user.png'
 
 import Input from "./../components/Input";
