@@ -1,12 +1,11 @@
 import mainlogo from '../images/mainlogo.png'
-import eye from '../images/eye.png'
 import user from '../images/user.png'
 
 import Input from "./../components/Input";
 
 function Sign() {
   return (
-    <div>
+    <div >
       <div className='bg-white w-[360px] h-[746px] m-auto mt-5'>
 
         <div>
