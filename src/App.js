@@ -9,7 +9,7 @@ import Topbar from "./components/Topbar";
 
 function App() {
   return (
-    <div className="bg-[#D2D2D2] w-full max-w-[fixed-width] px-[30px]">
+    <div className="bg-[#D2D2D2] w-[360px] px-[30px]">
       <Topbar/>
       <Routes>
         <Route>

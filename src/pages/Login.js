@@ -26,9 +26,12 @@ function App() {
         <div>
         <button className='mt-[25px] w-[300px] h-[40px] bg-[#F35E05] ml-[30px] rounded-[10px] text-[14px] text-white'>LOGIN</button>
 
-        <div className='flex mt-5 justify-center'>
-            <hr className='w-[150.035px] h-[1px]'></hr><span className='mt-[-12px] text-sm text-[#515151]'>or</span>
-            <hr className='w-[150.035px] h-[1px]'></hr>
+        {/* <div className='flex mt-5 justify-center'> */}
+        <div className=''>
+            {/* <hr className='w-[150.035px] h-[1px]'></hr><span className='mt-[-12px] text-sm text-[#515151]'>or</span>
+            <hr className='w-[150.035px] h-[1px]'></hr> */}
+            <hr className='h-[5px] mt-5'></hr>
+            <div className='mx-auto w-[50px] bg-white -mt-5 text-center'>or</div>
         </div>
 
         <button className='mt-[20px] w-[300px] h-[40px] bg-white ml-[30px] border-[2px] border-[#F35E05] rounded-[10px] text-[14px] text-white'>LOGIN</button>
