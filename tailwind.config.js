@@ -13,7 +13,9 @@ module.exports = {
         'inter': ['Inter', 'sans-serif'],
         'architects-daughter': ['Architects Daughter'],
       },
-
+      spacing: {
+        'maxBoundary': '500px',
+      }
     },
 
   },
